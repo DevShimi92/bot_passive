@@ -1,0 +1,17 @@
+{
+  "name": "bot_passive",
+  "version": "0.1.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node .",
+    "docker": "docker build . --tag bot_passive:local",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DevShimi92",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3"
+  }
+}
